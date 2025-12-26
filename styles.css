@@ -119,6 +119,10 @@ body {
     transition: var(--transition);
 }
 
+.contact-info a:visited {
+    color: var(--white);
+}
+
 .contact-info a:hover {
     opacity: 0.8;
 }
@@ -439,6 +443,10 @@ footer a {
     color: var(--white);
     text-decoration: underline;
     transition: var(--transition);
+}
+
+footer a:visited {
+    color: var(--white);
 }
 
 footer a:hover {
