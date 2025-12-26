@@ -84,7 +84,7 @@ body {
 .hero {
     background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
     color: var(--white);
-    padding: 100px 0;
+    padding: 80px 0;
     text-align: center;
 }
 
@@ -169,7 +169,7 @@ body {
 
 /* About Section */
 .about {
-    padding: 80px 0;
+    padding: 60px 0;
     background-color: var(--light-bg);
 }
 
@@ -190,7 +190,7 @@ body {
 
 /* Experience Section */
 .experience {
-    padding: 80px 0;
+    padding: 60px 0;
 }
 
 .experience h2 {
@@ -254,7 +254,7 @@ body {
 
 /* Education Section */
 .education {
-    padding: 80px 0;
+    padding: 60px 0;
     background-color: var(--light-bg);
 }
 
@@ -310,7 +310,7 @@ body {
 
 /* Skills Section */
 .skills-section {
-    padding: 80px 0;
+    padding: 60px 0;
 }
 
 .skills-section h2 {
@@ -357,7 +357,7 @@ body {
 
 /* Projects Section */
 .projects {
-    padding: 80px 0;
+    padding: 60px 0;
 }
 
 .projects h2 {
@@ -398,7 +398,7 @@ body {
 }
 
 .course-history {
-    padding: 80px 0;
+    padding: 60px 0;
     background-color: var(--light-bg);
 }
 
@@ -451,7 +451,7 @@ body {
 .contact {
     background: linear-gradient(135deg, var(--secondary-color) 0%, var(--primary-color) 100%);
     color: var(--white);
-    padding: 80px 0;
+    padding: 70px 0;
     text-align: center;
 }
 
