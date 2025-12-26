@@ -3,46 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Course History</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #f5f5f5;
-        }
-        h1 {
-            color: #333;
-        }
-        .semester {
-            background-color: white;
-            margin-bottom: 20px;
-            padding: 15px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-        .semester h2 {
-            color: #0366d6;
-            margin-top: 0;
-            border-bottom: 2px solid #0366d6;
-            padding-bottom: 10px;
-        }
-        .course {
-            padding: 10px 0;
-            border-bottom: 1px solid #eee;
-        }
-        .course:last-child {
-            border-bottom: none;
-        }
-        .course-name {
-            font-weight: bold;
-            color: #333;
-        }
-    </style>
+    <title>Course History | Isaac Lau Tsz Hin</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Course History</h1>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Isaac Lau Tsz Hin</div>
+            <ul class="nav-links">
+                <li><a href="index.html#home">Profile</a></li>
+                <li><a href="index.html#experience">Experience</a></li>
+                <li><a href="index.html#education">Education</a></li>
+                <li><a href="index.html#skills">Skills</a></li>
+                <li><a href="index.html#projects">Projects</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="courses-hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Course History</h1>
+                <p class="subtitle">Academic journey at HKUST and beyond</p>
+                <p class="description">A semester-by-semester record of coursework, transferred credits, and current studies.</p>
+                <div class="contact-info">
+                    <p>isaactszhinlau@gmail.com | <a href="https://github.com/isaaclau128" target="_blank">https://github.com/isaaclau128</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="courses" class="course-history">
+        <div class="container">
+            <h2>Course History</h2>
 
 <!--
     <div class="semester">
@@ -84,136 +80,143 @@
 
     -->
 
-    <div class="semester">
-        <h2>Winter 2025-2026 (Current Semester)</h2>
-        <div class="course">
-            <span class="course-name">TEMG4970F - T&M IBPC in Saudi Arabia (3)</span>
-        </div>
-    </div>
-    
-    <div class="semester">
-        <h2>Fall 2025-2026</h2>
-        <div class="course">
-            <span class="course-name">ISOM2500 - Business Statistics (3)</span>
-        </div>
-        <div class="course">
-            <span class="course-name">ISOM2700 - Operations Management (3)</span>
-        </div>
-        <div class="course">
-            <span class="course-name">MARK2120 - Marketing Management (3)</span>
-        </div>
-        <div class="course">
-            <span class="course-name">MATH2111 - Matrix Algebra and Applications (3)</span>
-        </div>
-        <div class="course">
-            <span class="course-name">ECON2103 - Principles of Microeconomics (3)</span>
-        </div>
-        <div class="course">
-            <span class="course-name">PHYS1114 - General Physics II (3)</span>
-        </div>
-        <div class="course">
-            <span class="course-name">COMP2011 - Programming with C++ (4)</span>
-        </div>
-        <div class="course">
-            <span class="course-name">CPEG2930 - Academic and Professional Development II (0)</span>
-        </div>
-        <div class="course">
-            <span class="course-name">EMIA2010B - Corss-disciplinary Seminar: Digital Media and Creative Arts (0)</span>
-        </div>
-        <div class="course">
-            <span class="course-name">ENGG2010 - Engineering Seminar Series (0)</span>
-        </div>
-        <div class="course">
-            <span class="course-name">TEMG1010 - T&M Professional Activities (0)</span>
-        </div>
-    </div>
+            <div class="semester">
+                <h3>Winter 2025-2026 (Current Semester)</h3>
+                <div class="course">
+                    <span class="course-name">TEMG4970F - T&M IBPC in Saudi Arabia (3)</span>
+                </div>
+            </div>
+            
+            <div class="semester">
+                <h3>Fall 2025-2026</h3>
+                <div class="course">
+                    <span class="course-name">ISOM2500 - Business Statistics (3)</span>
+                </div>
+                <div class="course">
+                    <span class="course-name">ISOM2700 - Operations Management (3)</span>
+                </div>
+                <div class="course">
+                    <span class="course-name">MARK2120 - Marketing Management (3)</span>
+                </div>
+                <div class="course">
+                    <span class="course-name">MATH2111 - Matrix Algebra and Applications (3)</span>
+                </div>
+                <div class="course">
+                    <span class="course-name">ECON2103 - Principles of Microeconomics (3)</span>
+                </div>
+                <div class="course">
+                    <span class="course-name">PHYS1114 - General Physics II (3)</span>
+                </div>
+                <div class="course">
+                    <span class="course-name">COMP2011 - Programming with C++ (4)</span>
+                </div>
+                <div class="course">
+                    <span class="course-name">CPEG2930 - Academic and Professional Development II (0)</span>
+                </div>
+                <div class="course">
+                    <span class="course-name">EMIA2010B - Corss-disciplinary Seminar: Digital Media and Creative Arts (0)</span>
+                </div>
+                <div class="course">
+                    <span class="course-name">ENGG2010 - Engineering Seminar Series (0)</span>
+                </div>
+                <div class="course">
+                    <span class="course-name">TEMG1010 - T&M Professional Activities (0)</span>
+                </div>
+            </div>
 
-    <div class="semester">
-        <h2>Summer 2024-2025</h2>
-        <div class="course">
-            <span class="course-name">ACCT2010 - Principles of Accounting I (3)</span>
-        </div>
-        <h3 style="margin-top: 1.5rem; margin-bottom: 0.5rem;">Transferred Credits from University of Oxford - Lady Margaret Hall Summer Programmes</h3>
-        <div class="course">
-            <span class="course-name">COMPA&T - Computer Science Track Course (3)</span>
-        </div>
-        <div class="course">
-            <span class="course-name">ELEC3810 - Data Science for Neural Engineering (3)</span>
-        </div>
-    </div>
+            <div class="semester">
+                <h3>Summer 2024-2025</h3>
+                <div class="course">
+                    <span class="course-name">ACCT2010 - Principles of Accounting I (3)</span>
+                </div>
+                <h4 class="transfer-heading">Transferred Credits from University of Oxford - Lady Margaret Hall Summer Programmes</h4>
+                <div class="course">
+                    <span class="course-name">COMPA&T - Computer Science Track Course (3)</span>
+                </div>
+                <div class="course">
+                    <span class="course-name">ELEC3810 - Data Science for Neural Engineering (3)</span>
+                </div>
+            </div>
 
-    <div class="semester">
-        <h2>Spring 2024-2025</h2>
-        <div class="course">
-            <span class="course-name">CIVL1100 - Discovering Civil and Environmental Engineering (3)</span>
-        </div>
-        <div class="course">
-            <span class="course-name">ELEC1100 - Introduction to Electro-Robot Design (4)</span>
-        </div>
-        <div class="course">
-            <span class="course-name">HUMA2104 - Music Theory I: Introduction to Tonal Music (3)</span>
-        </div>
-        <div class="course">
-            <span class="course-name">MATH1014 - Calculus II (3)</span>
-        </div>
-        <div class="course">
-            <span class="course-name">TEMG3950 - T&M Case Analysis and Product Innovation (3)</span>
-        </div>
-        <div class="course">
-            <span class="course-name">HMAW1905B - Behavioral Foundations of University Education: Habts, Mindsets, and Wellness (2)</span>
-        </div>
-    </div>
+            <div class="semester">
+                <h3>Spring 2024-2025</h3>
+                <div class="course">
+                    <span class="course-name">CIVL1100 - Discovering Civil and Environmental Engineering (3)</span>
+                </div>
+                <div class="course">
+                    <span class="course-name">ELEC1100 - Introduction to Electro-Robot Design (4)</span>
+                </div>
+                <div class="course">
+                    <span class="course-name">HUMA2104 - Music Theory I: Introduction to Tonal Music (3)</span>
+                </div>
+                <div class="course">
+                    <span class="course-name">MATH1014 - Calculus II (3)</span>
+                </div>
+                <div class="course">
+                    <span class="course-name">TEMG3950 - T&M Case Analysis and Product Innovation (3)</span>
+                </div>
+                <div class="course">
+                    <span class="course-name">HMAW1905B - Behavioral Foundations of University Education: Habts, Mindsets, and Wellness (2)</span>
+                </div>
+            </div>
 
-    <div class="semester">
-        <h2>Winter 2024-2025</h2>
-        <div class="course">
-            <span class="course-name">ISOM1090 - Social Media: Collective Intelligence & Creativity (3)</span>
-        </div>
-    </div>
+            <div class="semester">
+                <h3>Winter 2024-2025</h3>
+                <div class="course">
+                    <span class="course-name">ISOM1090 - Social Media: Collective Intelligence & Creativity (3)</span>
+                </div>
+            </div>
 
-    <div class="semester">
-        <h2>Fall 2024-2025</h2>
-        <div class="course">
-            <span class="course-name">COMP1021 - Introduction to Computer Science (3)</span>
-        </div>
-        <div class="course">
-            <span class="course-name">ENGG1400 - Designing Your Life for Engineering Students (1)</span>
-        </div>
-        <div class="course">
-            <span class="course-name">HUMA2101 - Enjoyment of Western Opera (3)</span>
-        </div>
-        <div class="course">
-            <span class="course-name">LANG1407 - Academic English for Engineering Studies (3)</span>
-        </div>
-        <div class="course">
-            <span class="course-name">PHYS1112 - General Physics I with Calculus (3)</span>
-        </div>
-        <div class="course">
-            <span class="course-name">HMAW1905B - Behavioral Foundations of University Education: Habts, Mindsets, and Wellness (1)</span>
-        </div>
-        <div class="course">
-            <span class="course-name">LEGL1100 - Legal Education (Basic Law, National Security Law and Safeguarding National Security Ordinance) (0)</span>
-        </div>
+            <div class="semester">
+                <h3>Fall 2024-2025</h3>
+                <div class="course">
+                    <span class="course-name">COMP1021 - Introduction to Computer Science (3)</span>
+                </div>
+                <div class="course">
+                    <span class="course-name">ENGG1400 - Designing Your Life for Engineering Students (1)</span>
+                </div>
+                <div class="course">
+                    <span class="course-name">HUMA2101 - Enjoyment of Western Opera (3)</span>
+                </div>
+                <div class="course">
+                    <span class="course-name">LANG1407 - Academic English for Engineering Studies (3)</span>
+                </div>
+                <div class="course">
+                    <span class="course-name">PHYS1112 - General Physics I with Calculus (3)</span>
+                </div>
+                <div class="course">
+                    <span class="course-name">HMAW1905B - Behavioral Foundations of University Education: Habts, Mindsets, and Wellness (1)</span>
+                </div>
+                <div class="course">
+                    <span class="course-name">LEGL1100 - Legal Education (Basic Law, National Security Law and Safeguarding National Security Ordinance) (0)</span>
+                </div>
 
-        <h3 style="margin-top: 1.5rem; margin-bottom: 0.5rem;">Transferred Credits from IBDP results</h3>
-        
-        <div class="course">
-            <span class="course-name">CHEM1101 - General Chemistry A: Reactions, Thermodynamics, and Reaction Kinetics (3)</span>
+                <h4 class="transfer-heading">Transferred Credits from IBDP results</h4>
+                
+                <div class="course">
+                    <span class="course-name">CHEM1101 - General Chemistry A: Reactions, Thermodynamics, and Reaction Kinetics (3)</span>
+                </div>
+                <div class="course">
+                    <span class="course-name">CHEM1051 - Laboratory for General Chemistry A (1)</span>
+                </div>
+                <div class="course">
+                    <span class="course-name">COREBROAD - Common Core Course in Broadening Group (6)</span>
+                </div>
+                <div class="course">
+                    <span class="course-name">MATH1013 - Calculus IB (3)</span>
+                </div>
+                <div class="course">
+                    <span class="course-name">OTHRFREE - Free Credits (9)</span>
+                </div>
+                
+            </div>
         </div>
-        <div class="course">
-            <span class="course-name">CHEM1051 - Laboratory for General Chemistry A (1)</span>
-        </div>
-        <div class="course">
-            <span class="course-name">COREBROAD - Common Core Course in Broadening Group (6)</span>
-        </div>
-        <div class="course">
-            <span class="course-name">MATH1013 - Calculus IB (3)</span>
-        </div>
-        <div class="course">
-            <span class="course-name">OTHRFREE - Free Credits (9)</span>
-        </div>
-        
-    </div>
+    </section>
 
+    <footer>
+        <div class="container">
+            <p>isaactszhinlau@gmail.com | <a href="https://github.com/isaaclau128" target="_blank">https://github.com/isaaclau128</a></p>
+        </div>
+    </footer>
 </body>
 </html>

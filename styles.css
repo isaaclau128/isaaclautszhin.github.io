@@ -390,6 +390,56 @@ body {
     margin-bottom: 1.5rem;
 }
 
+.course-history {
+    padding: 80px 0;
+    background-color: var(--light-bg);
+}
+
+.course-history h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+    text-align: center;
+    color: var(--secondary-color);
+}
+
+.course-history .semester {
+    background-color: var(--white);
+    margin-bottom: 1.5rem;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+}
+
+.course-history .semester h3 {
+    color: var(--secondary-color);
+    margin-top: 0;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 0.5rem;
+}
+
+.course-history .transfer-heading {
+    margin-top: 1.25rem;
+    margin-bottom: 0.75rem;
+    color: var(--primary-color);
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.course-history .course {
+    padding: 0.75rem 0;
+    border-bottom: 1px solid #eee;
+}
+
+.course-history .course:last-child {
+    border-bottom: none;
+}
+
+.course-history .course-name {
+    font-weight: 700;
+    color: var(--text-color);
+}
+
 /* Contact Section */
 .contact {
     background: linear-gradient(135deg, var(--secondary-color) 0%, var(--primary-color) 100%);
