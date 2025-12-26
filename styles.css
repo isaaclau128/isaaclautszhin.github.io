@@ -99,6 +99,30 @@ body {
     opacity: 0.8;
 }
 
+.contact-info {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    display: inline-block;
+    margin-bottom: 2rem;
+}
+
+.contact-info p {
+    margin: 0;
+    color: var(--white);
+    font-size: 1rem;
+}
+
+.contact-info a {
+    color: var(--white);
+    text-decoration: underline;
+    transition: var(--transition);
+}
+
+.contact-info a:hover {
+    opacity: 0.8;
+}
+
 /* Buttons */
 .btn {
     display: inline-block;
@@ -409,6 +433,16 @@ footer {
     color: var(--white);
     text-align: center;
     padding: 2rem 0;
+}
+
+footer a {
+    color: var(--white);
+    text-decoration: underline;
+    transition: var(--transition);
+}
+
+footer a:hover {
+    opacity: 0.8;
 }
 
 /* Animations */
