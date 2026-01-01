@@ -102,6 +102,7 @@ body {
     width: 100%;
     justify-content: center;
     flex-wrap: wrap;
+    flex-direction: row-reverse;
 }
 
 .hero-text {
@@ -117,13 +118,13 @@ body {
 }
 
 .hero-photo {
-    flex: 0 0 300px;
+    flex: 0 0 180px;
     text-align: center;
 }
 
 .hero-photo img {
-    width: 280px;
-    height: 280px;
+    width: 180px;
+    height: 180px;
     border-radius: 15px;
     object-fit: cover;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
@@ -137,7 +138,7 @@ body {
 
 @media (max-width: 768px) {
     .hero-wrapper {
-        flex-direction: column;
+        flex-direction: column-reverse;
         gap: 2rem;
     }
     
@@ -147,8 +148,8 @@ body {
     }
     
     .hero-photo img {
-        width: 250px;
-        height: 250px;
+        width: 150px;
+        height: 150px;
     }
 }
 
