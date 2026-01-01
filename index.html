@@ -12,14 +12,17 @@
     <nav class="navbar">
         <div class="container">
             <a class="logo" href="#home">Isaac Lau Tsz Hin</a>
-            <ul class="nav-links">
-                <li><a href="#home">Profile</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+            <div class="nav-actions">
+                <ul class="nav-links">
+                    <li><a href="#home">Profile</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle color theme">☀ Light</button>
+            </div>
         </div>
     </nav>
 
@@ -216,5 +219,25 @@
             </p>
         </div>
     </footer>
+    <script>
+        (function() {
+            const toggleBtn = document.getElementById('theme-toggle');
+            const applyTheme = (theme) => {
+                const isLight = theme === 'light';
+                document.body.classList.toggle('theme-light', isLight);
+                localStorage.setItem('theme', theme);
+                toggleBtn.textContent = isLight ? '🌙 Dark' : '☀ Light';
+            };
+
+            const saved = localStorage.getItem('theme');
+            const initial = saved === 'light' ? 'light' : 'dark';
+            applyTheme(initial);
+
+            toggleBtn.addEventListener('click', () => {
+                const next = document.body.classList.contains('theme-light') ? 'dark' : 'light';
+                applyTheme(next);
+            });
+        })();
+    </script>
 </body>
 </html>
