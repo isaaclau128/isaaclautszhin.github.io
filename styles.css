@@ -108,7 +108,7 @@ body {
 
 .contact-info {
     background-color: rgba(255, 255, 255, 0.2);
-    padding: 1rem 1.5rem;
+    padding: 2rem 2.5rem;
     border-radius: 8px;
     display: inline-block;
     margin-bottom: 2rem;
@@ -117,13 +117,20 @@ body {
 .contact-info p {
     margin: 0;
     color: var(--white);
-    font-size: 1rem;
+    font-size: 1.3rem;
 }
 
 .contact-info a {
     color: var(--white);
-    text-decoration: underline;
+    text-decoration: none;
     transition: var(--transition);
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.contact-info a i {
+    font-size: 1.4rem;
 }
 
 .contact-info a:visited {
@@ -132,6 +139,7 @@ body {
 
 .contact-info a:hover {
     opacity: 0.8;
+    transform: scale(1.05);
 }
 
 /* Buttons */
