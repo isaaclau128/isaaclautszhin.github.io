@@ -97,7 +97,7 @@ body {
 
 .hero-wrapper {
     display: flex;
-    align-items: center;
+    align-items: stretch;
     gap: 2rem;
     width: 100%;
     justify-content: center;
@@ -127,14 +127,13 @@ body {
     display: flex; 
     align-items: center; 
     justify-content: center; 
-    margin-top: 12px;
 }
 
 
 .hero-photo img {
     width: auto;
-    height: auto;
-    max-height: 180px;
+    height: 100%;
+    max-height: none;
     border-radius: 15px;
     object-fit: contain;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
