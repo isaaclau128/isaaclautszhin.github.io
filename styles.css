@@ -115,7 +115,13 @@ body {
 .theme-toggle:hover {
     background: rgba(255, 255, 255, 0.08);
     border-color: var(--primary-color);
-    color: var(--white);
+    color: var(--text-color);
+}
+
+body.theme-light .theme-toggle:hover {
+    background: rgba(0, 0, 0, 0.06);
+    border-color: var(--primary-color);
+    color: var(--text-color);
 }
 
 /* Hero Section */
