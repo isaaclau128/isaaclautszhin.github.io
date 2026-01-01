@@ -7,6 +7,13 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <script>
+        (() => {
+            const saved = localStorage.getItem('theme');
+            const isLight = saved === 'light';
+            document.body.classList.toggle('theme-light', isLight);
+        })();
+    </script>
     <!-- Navigation -->
     <nav class="navbar">
         <div class="container">
