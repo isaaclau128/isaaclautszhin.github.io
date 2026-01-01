@@ -133,7 +133,7 @@ body {
 .hero-photo img {
     width: auto;
     height: auto;
-    max-height: 220px;
+    max-height: 300px;
     border-radius: 15px;
     object-fit: contain;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
