@@ -59,9 +59,17 @@
     <section id="about" class="about">
         <div class="container">
             <h2>About Me</h2>
-            <p>
-                Always intrigued by new technology, Isaac is eager to adapt and combine theory and knowledge into the evolving world. He possesses strong critical thinking and problem-solving skills, enabling him to tackle complex problems. With solid experience in group work, Isaac is a team player and often takes on the responsibilities of a leadership role.
-            </p>
+            <p id="about-text">Loading...</p>
+            <script>
+                fetch('about.txt')
+                    .then(response => response.text())
+                    .then(text => {
+                        document.getElementById('about-text').innerText = text;
+                    })
+                    .catch(() => {
+                        document.getElementById('about-text').innerText = 'Unable to load text.';
+                    });
+            </script>
         </div>
     </section>
 
