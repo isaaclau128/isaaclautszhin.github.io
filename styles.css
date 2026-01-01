@@ -439,6 +439,7 @@ body {
 /* Projects Section */
 .projects {
     padding: 60px 0;
+    background-color: var(--light-bg);
 }
 
 .projects h2 {
