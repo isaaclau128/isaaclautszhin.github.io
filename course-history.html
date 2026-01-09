@@ -239,7 +239,6 @@
     <script>
         (function() {
             const toggleBtn = document.getElementById('theme-toggle');
-            if (!toggleBtn) return;
             const applyTheme = (theme) => {
                 const isLight = theme === 'light';
                 document.body.classList.toggle('theme-light', isLight);
